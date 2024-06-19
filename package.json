@@ -1,0 +1,21 @@
+{
+  "name": "qa-assuring-ethereum-frmhwu",
+  "version": "1.0.0",
+  "description": "Create a test based on Hardhat for testing contract deployment and interaction.",
+  "main": "index.js",
+  "scripts": {
+    "test": "npx hardhat test test/store.test.js",
+    "coverage": "hardhat coverage"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@nomicfoundation/hardhat-network-helpers": "^1.0.11",
+    "@nomicfoundation/hardhat-toolbox": "^5.0.0",
+    "hardhat": "^2.22.5"
+  },
+  "dependencies": {
+    "@openzeppelin/contracts": "^5.0.2"
+  }
+}

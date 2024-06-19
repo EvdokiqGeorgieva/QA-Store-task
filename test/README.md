@@ -1,4 +1,3 @@
-# QA-Store-task
 # Tests for Smart Contract Project
 This project contains smart contracts and associated tests for the Store application
 
